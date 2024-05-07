@@ -37,7 +37,7 @@ client.once('ready', async () => {
     await userModel.sync();
     await suspect_to_userModel.sync();
 
-    highlight(`Logged in as ${client.user.tag}`);
+    highlight(`Ready! Logged in as ${client.user.tag}`);
 
     const commands = [];
     for (const file of commandFiles) {
