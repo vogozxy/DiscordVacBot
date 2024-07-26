@@ -4,7 +4,7 @@ module.exports = {
       name: "discord-vac-bot",
       script: "./index.js",
       watch: true,
-      ignore_watch: ["node_modules", ".git", "database.db"],
+      ignore_watch: ["node_modules", ".git", "database.db", "*.db*"],
       autorestart: true,
       time: true,
       env: {
